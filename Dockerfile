@@ -1,7 +1,7 @@
-FROM Ubuntu
+# FROM Ubuntu
 
-RUN sudo apt-get update && pip install flask
+# RUN sudo apt-get update && pip install flask
 
-COPY . /opt/data
+# COPY . /opt/data
 
-CMD [ "py3", "app.py" ]
+# CMD [ "py3", "app.py" ]
